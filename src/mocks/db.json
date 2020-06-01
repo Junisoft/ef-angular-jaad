@@ -1,58 +1,40 @@
 {
-    "users": [
-      {
-        "name": "user 01",
-        "lastname": "ln 01",
-        "email": "user01@junisoft.com",
-        "role": "user",
-        "password": "123",
-        "phone": "999",
-        "id": "101"
-      },
-      {
-        "name": "user 02",
-        "lastname": "ln 02",
-        "email": "user02@junisoft.com",
-        "role": "admin",
-        "password": "123",
-        "phone": "999",
-        "id": "102"
-      },
-      {
-        "name": "user 03",
-        "lastname": "ln 03",
-        "email": "user03@junisoft.com",
-        "role": "user",
-        "password": "123",
-        "phone": "999",
-        "id": "103"
-      },
-      {
-        "name": "user 04",
-        "lastname": "ln 04",
-        "email": "user04@junisoft.com",
-        "role": "admin",
-        "password": "123",
-        "phone": "999",
-        "id": "104"
-      },
-      {
-        "name": "user 05",
-        "lastname": "ln 05",
-        "email": "user05@junisoft.com",
-        "role": "user",
-        "password": "123",
-        "phone": "999",
-        "id": "105"
-      },
-      {
-        "name": "user 06",
-        "lastname": "ln 06",
-        "email": "user06@junisoft.com",
-        "role": "admin",
-        "password": "123",
-        "phone": "999",
-        "id": "106"
-      }
-    ]
-  }
+  "users": [
+    {
+      "name": "user 01",
+      "lastname": "ln 01",
+      "email": "user01@junisoft.com",
+      "role": "user",
+      "password": "123",
+      "phone": "999",
+      "id": "101"
+    },
+    {
+      "name": "user 02",
+      "lastname": "ln 02",
+      "email": "user02@junisoft.com",
+      "role": "admin",
+      "password": "123",
+      "phone": "999",
+      "id": "102"
+    },
+    {
+      "name": "user 03",
+      "lastname": "ln 03",
+      "email": "user03@junisoft.com",
+      "role": "user",
+      "password": "123",
+      "phone": "999",
+      "id": "103"
+    },
+    {
+      "name": "user 05",
+      "lastname": "ln 05",
+      "email": "user05@junisoft.com",
+      "role": "user",
+      "password": "123",
+      "phone": "999",
+      "id": "105"
+    }
+  ]
+}

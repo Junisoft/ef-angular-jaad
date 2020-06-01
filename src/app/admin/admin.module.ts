@@ -3,26 +3,37 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { AdminComponent } from './admin.component';
-import { ReactiveFormsModule } from '@angular/forms';
 import { UsersComponent } from './users/users.component';
+import { UserService } from './services/user.service';
 import { MaterialModule } from '../material.module';
+import { AdminRoutingModule } from './admin-routing.module';
+import { UserNewComponent } from './user-new/user-new.component';
+import { UserEditComponent } from './user-edit/user-edit.component';
+import { UserFormComponent } from './user-form/user-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     FooterComponent,
     AdminComponent,
-    UsersComponent],
+    UsersComponent,
+    UserNewComponent,
+    UserEditComponent,
+    UserFormComponent],
   imports: [
     CommonModule,
-    ReactiveFormsModule,
-    MaterialModule
+    MaterialModule,
+    AdminRoutingModule,
+    ReactiveFormsModule
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    UsersComponent
   ],
   providers: [
+    
   ]
 })
 export class AdminModule { }
