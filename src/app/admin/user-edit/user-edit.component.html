@@ -4,6 +4,6 @@
       <mat-divider></mat-divider>
     </div>
 </div>
-<div class="center">
-    <app-user-form></app-user-form>
+<div class="center" *ngIf="user">
+    <app-user-form [model]="user" (onSaveForm)="onSaveUser($event)"></app-user-form>
 </div>

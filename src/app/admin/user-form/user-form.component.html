@@ -1,5 +1,5 @@
 <mat-card>
-    <form class="example-form" [formGroup]="userForm" novalidate autocomplete="off">
+    <form class="example-form" [formGroup]="userForm" novalidate autocomplete="off" (submit)="onSubmit()">
         <!-- <pre>{{userForm.value | json}}</pre>
         <pre>Valido: {{userForm.valid}}</pre>
         <pre>Errors: {{userForm.controls.phone.errors | json}}</pre> -->

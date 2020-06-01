@@ -21,6 +21,7 @@ export class UserService{
 
     getUserById(id: string) {
         const url = `${this.BASE_URL}/${this.endpoint}/${id}`;
+        console.log('url >', url);
         return this.http.get(url);
     }
 

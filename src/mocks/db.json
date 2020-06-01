@@ -5,8 +5,8 @@
       "lastname": "ln 01",
       "email": "user01@junisoft.com",
       "role": "user",
-      "password": "123",
-      "phone": "999",
+      "password": "12343333",
+      "phone": "999555555",
       "id": "101"
     },
     {
@@ -23,8 +23,8 @@
       "lastname": "ln 03",
       "email": "user03@junisoft.com",
       "role": "user",
-      "password": "123",
-      "phone": "999",
+      "password": "1235555",
+      "phone": "999999999",
       "id": "103"
     },
     {
@@ -35,6 +35,24 @@
       "password": "123",
       "phone": "999",
       "id": "105"
+    },
+    {
+      "name": "asas",
+      "lastname": "asas",
+      "email": "m@m.com",
+      "role": "qwqwq",
+      "password": "123456",
+      "phone": "1234567",
+      "id": "pckJb29"
+    },
+    {
+      "name": "fgfgf",
+      "lastname": "gffgf",
+      "email": "g@g.com",
+      "role": "user",
+      "password": "345676",
+      "phone": "12345678",
+      "id": "V8zprJR"
     }
   ]
 }
